@@ -64,12 +64,10 @@ Pour concevoir notre nichoir connecté, nous avons utilisé le matériel suivant
 
 Notre capteur, au début, était non assemblé (voir figure ci-dessous).
 
-![Capteur](https://github.com/Hibaben00/IOT/blob/test/Images/pic1.jpg)
 ![Capteur](https://github.com/Hibaben00/IOT/blob/test/Images/pic2.jpg)
 
 Pour l’assemblé, on s’est basé sur la documentation technique ci dessous.
-
-   
+ 
 ![Datasheet](https://github.com/Hibaben00/IOT/blob/test/Images/pic3.jpg)
 
 On obtient, au final, un produit qui ressemble à ceci. 
@@ -113,13 +111,13 @@ Les coûts potentiels des composants pour une nichoir connectée:
 - La lora e5 dev board peut coûter entre **20€** et **30€** en fonction du fournisseur et des quantités achetées. 
 - Le capteur HX711 peut coûter entre **1€** et **3€**.
 - La Stm32L discovery peut coûter entre **10€** et **15€**.
-- Les piles pour Lora :    ici
+- Les piles pour Lora :  **2€** pour chacune (on en a besoin de 2).
 - Un boîtier sous forme de nid pour héberger notre protocole peut coûter entre **3€** et **12€**.
 
-Une nichoire connecté peut nous couter :
+Une nichoire connecté peut nous couter au maximum:
+**64€** 
 
-
-Pour la production de 5000 unités : 
+Pour la production de 5000 unités : **320 000€** 
 
 ## <span style="color: pink;"> Une implémentation du logiciel embarqué de l’objet défini :
 
