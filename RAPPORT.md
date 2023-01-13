@@ -69,17 +69,18 @@ Notre capteur, au début, était non assemblé (voir figure ci-dessous).
 
 Pour l’assemblé, on s’est basé sur la documentation technique ci dessous.
 
+   
 ![Datasheet](https://github.com/Hibaben00/IOT/blob/test/Images/pic3.jpg)
 
 On obtient, au final, un produit qui ressemble à ceci. 
 
-![Capteur_assemblé](https://github.com/Hibaben00/IOT/blob/test/Images/pic4.jpg)
+![Capteur_asse](https://github.com/Hibaben00/IOT/blob/test/Images/pic4.jpg)
 
 - **STM Discovery**: Il s'agit d'un module électronique qui permet de développer des applications pour des microcontrôleurs STM32. Il est utilisé pour flasher notre LoRA. Il est connecté au Dev Board LoRa E5 via une interface appropriée, comme un port UART ou USB.
 
 Voici un schéma global de la liaison des différents composants de notre système: 
 
-![schema]([https://github.com/Hibaben00/IOT/blob/test/Images/pic5.jpg])
+![schema](https://github.com/Hibaben00/IOT/blob/test/Images/pic5.jpg)
 
 
 Cette architecture matérielle permet de connecter les capteurs de la nichoir connectée à un réseau LoRaWAN à l'aide du Dev Board LoRa E5, pour transmettre les données de capteurs vers un serveur ou une application pour analyse et stockage. Le STM Discovery est utilisé pour stocker le code de l'application de la nichoir connectée, permettant de contrôler les différents composants de la nichoir connectée notamment le capteur HX711 et de prendre des décisions en fonction des données reçues.
@@ -92,7 +93,7 @@ Voici une description  de liaison des pins des différents composants :
 
     On se base sur cette figure pour lier les différents pins de notre carte STM.
 
-![doc]([https://github.com/Hibaben00/IOT/blob/test/Images/pic6.jpg])
+![doc](https://github.com/Hibaben00/IOT/blob/test/Images/pic6.jpg)
 
 2. Connectez les pins de l’horloge et de données de LoRa e5 au STM32L Discovery (SWDIO, SWCLK).
 3. Connectez les pins de masse de LoRa e5 au STM32L Discovery (GND).
@@ -161,7 +162,6 @@ En somme, le logiciel embarqué de la nichoir connectée est ce qui permet à la
 |--------------------------|---------------------------|-------------------------------|
 | PetSafe                  |  - Surveillance en temps réel des oiseaux via une application mobile - Envoi automatique des données sur les oiseaux à un serveur ou un stockage en nuage - Design esthétique et élégant | - Coût élevé par rapport aux nichoirs classiques - Nécessite une connexion internet pour fonctionner - Installation et configuration peuvent être complexes|
 | SureFlap                  | - Contrôle de l'accès à la nichoir via une application mobile - Suivi en temps réel des oiseaux via une application mobile - Design esthétique et élégant |- Installation et configuration peuvent être complexes - Nécessite une connexion internet pour fonctionner- - Coût élevé par rapport aux nichoirs classiques |
-|Petnet                  | - Surveillance en temps réel des oiseaux via une application mobile - Envoi automatique des données sur les oiseaux à un serveur ou un stockage en nuage - Design esthétique et élégant | - Installation et configuration peuvent être complexes - Nécessite une connexion internet pour fonctionner - Coût élevé par rapport aux nichoirs classiques
-                         |
+|Petnet                  | - Surveillance en temps réel des oiseaux via une application mobile - Envoi automatique des données sur les oiseaux à un serveur ou un stockage en nuage - Design esthétique et élégant | - Installation et configuration peuvent être complexes - Nécessite une connexion internet pour fonctionner - Coût élevé par rapport aux nichoirs classiques|
 
 
