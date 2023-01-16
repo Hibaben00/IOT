@@ -78,7 +78,7 @@ On obtient, au final, un produit qui ressemble à ceci.
 
 Voici un schéma global de la liaison des différents composants de notre système: 
 
-![schema](https://github.com/Hibaben00/IOT/blob/test/Images/pic5.jpg)
+![schema](https://github.com/Hibaben00/IOT/blob/test/Images/pic5.png)
 
 
 Cette architecture matérielle permet de connecter les capteurs de la nichoir connectée à un réseau LoRaWAN à l'aide du Dev Board LoRa E5, pour transmettre les données de capteurs vers un serveur ou une application pour analyse et stockage. Le STM Discovery est utilisé pour stocker le code de l'application de la nichoir connectée, permettant de contrôler les différents composants de la nichoir connectée notamment le capteur HX711 et de prendre des décisions en fonction des données reçues.
@@ -91,18 +91,18 @@ Voici une description  de liaison des pins des différents composants :
 
     On se base sur cette figure pour lier les différents pins de notre carte STM.
 
-![doc](https://github.com/Hibaben00/IOT/blob/test/Images/pic6.jpg)
+![doc](https://github.com/Hibaben00/IOT/blob/test/Images/pic6.png)
 
 2. Connectez les pins de l’horloge et de données de LoRa e5 au STM32L Discovery (SWDIO, SWCLK).
 3. Connectez les pins de masse de LoRa e5 au STM32L Discovery (GND).
 
-![pins](https://github.com/Hibaben00/IOT/blob/test/Images/pic7.jpg)
+![pins](https://github.com/Hibaben00/IOT/blob/test/Images/pic7.png)
 
 - La connexion HX711 et LoRa E5:
 1. Connectez les pins de données et clock de HX711 au LoRa E5.
 2. Connectez les pins d' alimentation de HX711 au STM32L Discovery.
 
-![STM](https://github.com/Hibaben00/IOT/blob/test/Images/pic8.jpg)
+![STM](https://github.com/Hibaben00/IOT/blob/test/Images/pic8.png)
 
 
 ## <span style="color: pink;"> Estimation du coût de la BOM de notre produit pour 5000 unités produites :
