@@ -68,7 +68,7 @@ Notre capteur, au début, était non assemblé (voir figure ci-dessous).
 
 Pour l’assemblé, on s’est basé sur la documentation technique ci dessous.
  
-![Datasheet](https://github.com/Hibaben00/IOT/blob/test/Images/pic3.jpg)
+![Datasheet](https://github.com/Hibaben00/IOT/blob/test/Images/pic3.png)
 
 On obtient, au final, un produit qui ressemble à ceci. 
 
@@ -119,6 +119,12 @@ Une nichoire connecté peut nous couter au maximum:
 
 Pour la production de 5000 unités : **320 000€** 
 
+## <span style="color: pink;"> Estimer le coût de certification ETSI du produit, le coût de certification LoRa Alliance du produit … : 
+ 
+Le coût de certification ETSI pour un produit peut varier en fonction de plusieurs facteurs  on peut toutefois estimer un coût de certification d'environ 5000 à 10000€ pour un produit standard.
+
+Concernant les coûts de certification Lora Alliance, on peut estimer à environ 2500€ la certification. 
+
 ## <span style="color: pink;"> Une implémentation du logiciel embarqué de l’objet défini :
 
 Notre implémentation du logiciel embarqué pour une nichoir connectée utilisant une lora e5 ev board, un capteur HX711 et une STM se compose de : 
@@ -154,6 +160,12 @@ Le logiciel embarqué d'une nichoir connectée est le logiciel qu’on a intégr
 
 En somme, le logiciel embarqué de la nichoir connectée est ce qui permet à la nichoir de se connecter au réseau LoRa et de communiquer avec les capteurs pour récupérer les données de poids et de les envoyer à un serveur ou un stockage en nuage, ainsi que de permettre à l'utilisateur de configurer et de surveiller la nichoir connectée.
 
+ ## <span style="color: pink;"> Les métriques du logiciel embarqué (nombre de lignes de code, taille du binaire du firmware ie le fichier .bin) : 
+ 
+Pour réaliser notre projet, on s'est basé sur un exemple de LoRaWan fourni par RIOT qui est composé de plusieurs nombres de fichiers.
+En ce qui concerne notre propre code, nous avons modifié dans le main pour ajouter le code du capteur HX711. On a obtenu un main de **383 lignes**.
+Pour optimiser le main, on a pensé à programmer en C++ et de créer une classe de **HX711.h**.
+Néanmoins, on n’ a pas eu suffisamment le temps pour mettre au propre nos idées et nos codes. On s'est contenté de le faire en commentaire.
 
 ## <span style="color: pink;"> Avantages/inconvénients des produits concurrents
 | Produit concurrent       | Avantages                 | inconvénients                 |
@@ -162,4 +174,7 @@ En somme, le logiciel embarqué de la nichoir connectée est ce qui permet à la
 | SureFlap                  | - Contrôle de l'accès à la nichoir via une application mobile - Suivi en temps réel des oiseaux via une application mobile - Design esthétique et élégant |- Installation et configuration peuvent être complexes - Nécessite une connexion internet pour fonctionner- - Coût élevé par rapport aux nichoirs classiques |
 |Petnet                  | - Surveillance en temps réel des oiseaux via une application mobile - Envoi automatique des données sur les oiseaux à un serveur ou un stockage en nuage - Design esthétique et élégant | - Installation et configuration peuvent être complexes - Nécessite une connexion internet pour fonctionner - Coût élevé par rapport aux nichoirs classiques|
 
+ 
+  ## <span style="color: pink;"> Conclusion : 
+Au cours de ces séances du projet "Nichoir Connecté", nous avons eu l'occasion de mettre en oeuvre notre savoir faire concernant la communication par LoRa. Concevoir un système de A à Z ( soudure, assembler et connecter les différents composants, code..) était une belle aventure malgré les obstacles rencontrés. Malheureusement, le temps n'était pas en notre faveur pour aboutir un projet compliqué.
 
