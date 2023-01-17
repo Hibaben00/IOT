@@ -1,5 +1,7 @@
 # Nichoir connecté :
 
+## BENERROUA Hiba et ELHADRI Zainab
+
 Vous trouverez ci-joint tous nos fichiers (présentation, flyer, rapport) ainsi que nos codes pour le projet : Nichoir Connecté.
 
 Afin d'executer et compiler notre projet, il est impératif de télécharger d'abord le projet RIOT, et de remplacer ensuite les fichiers existant dans le dossier examples/lorawan par les fichiers qui se trouve dans notre répértoire Git.
