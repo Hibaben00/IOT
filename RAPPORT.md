@@ -125,6 +125,19 @@ Le coût de certification ETSI pour un produit peut varier en fonction de plusie
 
 Concernant les coûts de certification Lora Alliance, on peut estimer à environ 2500€ la certification. 
 
+ ## <span style="color:pink;"> Les fonctionnalités prévues pour un nichoir connecté :
+ 
+ Les fonctionnalités prévues pour un nichoir connecté peuvent inclure :
+ 
+- La surveillance vidéo en direct de l'intérieur du nichoir, permettant de suivre les activités des oiseaux qui y nichent.
+- La possibilité de diffuser de la musique ou des sons naturels pour attirer les oiseaux dans le nichoir.
+- La capacité de contrôler l'éclairage et la température à l'intérieur du nichoir pour maintenir un environnement confortable pour les oiseaux.
+- La possibilité de recevoir des notifications lorsque des oiseaux entrent ou sortent du nichoir.
+- La possibilité de partager les images et vidéos capturées avec d'autres utilisateurs.
+- La compatibilité avec des applications pour smartphones ou tablettes pour accéder à distance aux fonctionnalités du nichoir connecté.
+- La possibilité de recevoir des informations sur les oiseaux qui nichent dans le nichoir.
+ 
+ 
 ## <span style="color: pink;"> Une implémentation du logiciel embarqué de l’objet défini :
 
 Notre implémentation du logiciel embarqué pour une nichoir connectée utilisant une lora e5 ev board, un capteur HX711 et une STM se compose de : 
